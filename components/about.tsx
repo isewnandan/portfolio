@@ -23,7 +23,7 @@ export default function About() {
         <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">web development</span>, I decided to expand my
-        skills in programming. I had a teacher who introduced me to the profession of{" "}
+        skills in programming. I had a mentor who introduced me to the profession of{" "}
         <span className="font-medium">data analyst</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
@@ -32,7 +32,7 @@ export default function About() {
         <span className="font-medium">
           Html, CSS, Python  
         </span>
-        . I am also familiar with TypeScript and Varcel. I am always looking to
+        . I am also familiar with TypeScript. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">work student position</span> as a Data
         analyst.

@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { RiSchoolLine } from "react-icons/ri"
 
 export const links = [
   {
@@ -46,7 +47,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Rotterdam",
     description:
-      "I worked as a freelancer for 1 year. I also upskilled to the full stack.",
+      "I worked as a freelancer for 1 year to expend my coding skills and I also worked full-time at 'VanGelder Groenten en Fruit' as a controlroom employee. There, I worked with the programs WMS and Astro.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
@@ -54,9 +55,17 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Rotterdam",
     description:
-      "I am currently expanding my skills to become a full-stack developer / data analyst. I am open to work-study opportunities",
+      "I am currently expanding my skills to become a full-stack developer by making projects and following courses",
     icon: React.createElement(FaReact),
     date: "2020 - present",
+  },
+  {
+    title: "Student Data Analyst",
+    location: "Hogeschool Rotterdam",
+    description:
+      "I am a student at Hogeschool Rotterdam, pursuing a full-time associate degree in Data Analysis, and I am open to work-study opportunities",
+    icon: React.createElement(RiSchoolLine),
+    date: "2024 - present",
   },
 ] as const;
 
